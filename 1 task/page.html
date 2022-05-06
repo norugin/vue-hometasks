@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <article id="application">
+        <div v-for="obj in cats">
+            <img :src="obj.img">
+            <div class="description">
+            <h3>{{obj.name}}</h3>
+            <p>{{obj.age}}</p>
+            <p>{{obj.color}}</p>
+            <a href="#">Подробнее...</a>
+            </div>
+        </div>
+    </article>
+    <script src="js/script.js"></script>
+</body>
+</html>

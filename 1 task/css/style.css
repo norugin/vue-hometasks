@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+ }
+ div img{
+     display: block;
+     width: 100%;
+ }
+ .description{
+    background: #fafafa;
+    padding: 15px 0;
+ }
+ .description h3{
+    font-size: 18px;
+    font-weight: 400;
+ }
+ a{
+     color: black;
+     text-decoration: none;
+ }
