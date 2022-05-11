@@ -1,0 +1,19 @@
+.cards{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.zero{
+    background-color: red;
+}
+.notMany{
+    background-color: yellow;
+}
+.many{
+    background-color: green;
+}
+.card{
+    height: 200px;
+    text-align: center;
+}
